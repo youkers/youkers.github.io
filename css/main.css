@@ -1,3 +1,23 @@
+/* CSS RESET */
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video { margin:0; padding:0; border:0; outline:0; font-size:100%; vertical-align:baseline; background:transparent;}
+body {line-height:1;}
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {display:block;}
+ul li{list-style:none;}
+a {margin: 0; padding: 0; border: 0; vertical-align: baseline; background: transparent; text-decoration: none;}
+
 /*부트스트랩 테이블 세로정렬*/
 
 .table > tbody > tr > th {
@@ -7,6 +27,63 @@
 
 .table > tbody > tr > td {
      vertical-align: middle;
+}
+
+
+
+.web_list li a {
+    display: block;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0px 2px 5px #c4c4c4;
+    margin: 20px 0;
+}
+
+.web_list li h2 {
+
+    font-size: 20px;
+    font-weight: bold;
+    margin: 20px 0 20px 20px;
+}
+
+.web_list li p {
+    font-size: 14px;
+    color: #98a2ab;
+    margin: 0 20px 20px 20px;
+    line-height: 1.6;
+    letter-spacing: 0.3px;
+}
+
+
+.web_list .btn {
+    font-size: 14px;
+    padding: 10px 40px;
+    margin: 0 0 20px 20px;
+    color: #ab9473;
+    border-radius: 30px;
+
+    border: 1px solid #ab9473;
+    transition: all .2s ease-in-out;
+}
+
+.web_list .btn:hover{
+    background-color: #ab9473;
+    color: #fff;
+    transition: all .2s ease-in-out;
+    }
+
+
+.web_list img {
+    width: 100%;
+}
+
+.web_list li img {
+    transition: all .2s ease-in-out;
+}
+
+.web_list li img:hover {
+    transform: scale(1.02, 1.02); 
+    transition: all .2s ease-in-out; 
 }
 
 
@@ -125,7 +202,7 @@ body {
   font-size: 15px;
   line-height: 24px;
   color: #666;
-  background-color: #fff;
+  background-color: #edeff0;
 }
 
 h1, h2, h3, h4, h5, h6 {
