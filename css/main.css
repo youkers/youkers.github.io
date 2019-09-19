@@ -24,7 +24,7 @@ a {margin: 0; padding: 0; border: 0; vertical-align: baseline; background: trans
 
 .imglist_ul {font-size:0;width:800px;margin:0 auto;padding:10px;}
 .imglist_ul > li {display:inline-block;width:33.3%;vertical-align:top;font-size:12px;}
-a {display:block;width:auto;color:#333;margin:5px 5px 10px 5px;}
+
 a .screen {position:relative;overflow:hidden;padding-bottom:56.25%;}
 a .screen img {position:absolute;top:-10%;left:0%;transform:translate(0%,5%); width: 360px; height: 250px; z-index:1;}
 a .screen span {display:block;position:absolute;transition:all .2s;background:#30d0c6;z-index:2;}
